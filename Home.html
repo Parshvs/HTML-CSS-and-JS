@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -42,11 +41,7 @@
  </header>
 
  <script type="text/javascript">
-   $(document).ready(function() {
-      $.getJSON("<a class='vglnk' href='https://api.ipify.org/?format=json' rel='nofollow'><span>https</span><span>://</span><span>api</span><span>.</span><span>ipify</span><span>.</span><span>org</span><span>/?</span><span>format</span><span>=</span><span>json</span></a>", function(e) {
-        $('.ip').text(e.ip);
-      });
-    });
+  
    function slideshow(){
       var x = document.getElementById('check-class');
       if(x.style.display === "none"){
